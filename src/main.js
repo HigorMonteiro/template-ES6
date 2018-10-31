@@ -1,6 +1,9 @@
 const a = 3;
 const b = 2;
-const b = 4
+const c = 4;
 
-console.log(a, b, c)
-const c = "asdfsdfsadfsdfadfsdf"
+function sum() {
+  return a + b + c;
+}
+
+sum();
