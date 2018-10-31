@@ -4,6 +4,8 @@
   "description": "template for projects ES6",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/HigorMonteiro/template-ES6/issues"
   },
-  "homepage": "https://github.com/HigorMonteiro/template-ES6#readme"
+  "homepage": "https://github.com/HigorMonteiro/template-ES6#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^1.1.2"
+  }
 }
