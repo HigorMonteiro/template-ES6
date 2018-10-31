@@ -1,0 +1,19 @@
+{
+  "name": "template-es6",
+  "version": "1.0.0",
+  "description": "template for projects ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HigorMonteiro/template-ES6.git"
+  },
+  "author": "Higor Vinicius",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HigorMonteiro/template-ES6/issues"
+  },
+  "homepage": "https://github.com/HigorMonteiro/template-ES6#readme"
+}
